@@ -1,49 +1,123 @@
-body {
-      padding: 25px;
-      font-family: helvetica, sans-serif;
+body{
+  padding:25px;
+  font-family: 'Raleway', sans-serif;
+  background-image: url("https://images5.alphacoders.com/473/thumb-1920-473154.jpg");
+  background-size:cover;
 }
 
-.pure-g {
-      border: 5px solid orange;
-      margin-bottom: 25px;
+.pure-g{margin-bottom:25px;
+  width: 90%;
+  margin: auto;
+  background-color: white;
+  border-radius: 10px;
 }
 
-.pure-u-1 {
-      box-sizing: border-box;
-      border: 5px solid cadetblue;
-      padding: 25px;
-      text-align: center;
+.about {
+text-align: center;}
+
+.pure-u-1{box-sizing:border-box;padding:25px;text-align:center;}
+
+h1{font-size:4em;font-weight:lighter;font-family: 'Raleway', sans-serif;padding: 10px;}
+
+h3{font-size:1.7em;font-weight:lighter;margin-bottom:25px;font-family:'Raleway', sans-serif;}
+
+p{margin-bottom:25px;text-align:left;line-height:1.6em}
+
+ul{list-style-type:none;padding:0}
+
+@media (max-width:48em){li a{color:red}li{display:inline;margin-right:10px}}
+
+.pure-menu-link {
+color: black;
 }
 
-h1 {
-      font-size: 1.2em;
-      font-weight: 900;
+.pure-menu-link:hover{
+border-radius: 5px;
 }
 
-h2 {
-      font-size: 1.1em;
-      font-weight: 900;
-      margin-bottom: 25px;
+#work {
+  width: 27%;
+  margin-right: 1%;
+  margin-top: 2%;
+  border-radius: 10px;
+  box-shadow: 2px 2px 7px grey;
 }
 
-p {
-      margin-bottom: 25px;
-      text-align: left;
-      line-height: 1.6em;
+#work:hover {
+opacity:0.8;
 }
 
-ul {
-      list-style-type: none;
-      padding: 0;
+ul {float: right;}
+
+a {
+text-decoration: none;
+color: black;
 }
 
-@media (max-width: 48em) {
-      li a {
-            color: red;
-      }
+footer{
+      background-color: none;
+      height: 120px;
+}
 
-      li {
-            display: inline;
-            margin-right: 10px;
-      }
+footer ul li a{
+      color: white;
+      float: left;
+}
+
+footer ul {
+    display: flex;
+    justify-content: center;
+}
+
+footer ul li:not(:first-child) a {
+    margin-left: 1.2em;
+}
+
+footer ul a {
+    display: block;
+    padding: 0.5em .65rem;
+    font-size: 1rem;
+    color: #fff;
+    border-radius: 50%;
+    border: 2px solid;
+    margin-top: 40px;}
+
+     ul li a:hover{
+      color: #1375D8;
+      transition: all .25s;
+  }
+
+.pure-control-group {
+height: 60px;
+}
+#foo {
+height: 80px;
+width: 350px;
+margin-bottom: 10px;
+}
+
+button{
+margin-top: 30px;
+border-radius: 19px;
+}
+
+#quote {
+background-color:none;
+color: white;
+text-shadow: 2px 2px 4px black;
+font-weight: lighter;
+}
+
+#ask {
+color: white;
+}
+
+.M {
+color: white;
+font-size: 2em;
+text-shadow: 2px 2px 4px white;
+}
+
+a:hover{
+color:#1375D8;
 }
